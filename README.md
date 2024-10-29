@@ -122,5 +122,6 @@ for authentication (like Thunderbird or Outlook). First you need to enable acces
 Also take into account that email `From:` header will contain the email address of the account being used to
 authenticate against the Gmail SMTP server(SMTP_USERNAME), the one on the email will be ignored by Gmail unless you [add it as an alias](https://support.google.com/mail/answer/22370).
 
+
 ### Debugging
 If you need troubleshooting the container you can set the environment variable _DEBUG=yes_ for a more verbose output.
